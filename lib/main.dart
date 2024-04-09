@@ -1,6 +1,5 @@
 import 'package:book_grocer/common/color_extenstion.dart';
-import 'package:book_grocer/view/main_tab/main_tab_view.dart';
-import 'package:book_grocer/view/onboarding/onboarding_view.dart';
+import 'package:book_grocer/view/login/lgin_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,7 +29,7 @@ class MyApp extends StatelessWidget {
       
         fontFamily: 'SF Pro Text',
       ),
-      home: const MainTabView() ,
+      home: LoginScreen() ,
     );
   }
 }

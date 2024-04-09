@@ -41,7 +41,7 @@ class RecentlyCell extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 15,
+              height: 7,
             ),
             Text(
               iObj["name"].toString(),
